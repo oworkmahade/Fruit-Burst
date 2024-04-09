@@ -21,6 +21,7 @@
 </head>
 
 <body>
+    <!-- header starts here -->
     <header class="container mx-auto fonts-lato mt-4 px-12">
         <!-- navbar start here -->
         <section class="navbar lg:my-12">
@@ -223,8 +224,10 @@
         </section>
         <!-- banner ends here -->
     </header>
+    <!-- header ends here -->
 
     <main class="container mx-auto px-12">
+        <!-- deal of the day starts here -->
         <section class="deal-of-the-day-section mt-8 lg:mt-12">
             <div class="deal-of-the-day-upper-container flex  flex-col lg:flex-row gap-4 lg:justify-between">
                 <div class="deal-of-the-day-content flex flex-col items-center lg:items-start ">
@@ -428,7 +431,9 @@
             </div>
 
         </section>
+        <!-- deal of the day ends here -->
 
+        <!-- team section starts here -->
         <section class="team-section my-[92px] lg:my-[140px]">
 
             <div
@@ -545,7 +550,9 @@
 
 
         </section>
+        <!-- team section ends here -->
 
+        <!-- choose us section starts here -->
         <section class="choose-us mt-[140px] mb-[140px]">
             <div class="choose-us-container">
                 <h3 class="choose-us-title fonts-lato text-2xl lg:text-5xl text-center font-bold">Why Choose Us</h3>
@@ -709,7 +716,122 @@
 
             </div>
         </section>
+        <!-- choose us section ends here -->
+
+        <!-- contact section starts here -->
+        <section class="contactus mt-[140px] ">
+            <h3 class="contactus-title fonts-lato text-2xl lg:text-5xl font-bold text-center">Contact Us
+            </h3>
+            <p class="contactus-desc fonts-lato text-xl text-[#6b7280] text-center mt-4 p-4 lg:p-0">
+                We use an agile approach to test assumptions and connect <br>with the needs of your audience early and
+                often.
+            </p>
+
+            <div class="contact-form grid grid-cols-1 lg:grid-cols-3 mt-10 lg:mt-20">
+                <div class=" grid grid-cols-1 lg:grid-cols-2 col-span-1 lg:col-span-2 gap-10 p-2">
+                    <div class="first-name">
+                        <label for="" class="fonts-lato text-lg">First Name</label>
+                        <input type="text" placeholder="Bonnie" class="input border-slate-200 border w-full mt-2" />
+                    </div>
+
+                    <div class="last-name">
+                        <label for="" class="fonts-lato text-lg">Last Name</label>
+                        <input type="text" placeholder="Green" class="input border-slate-200 border w-full mt-2" />
+                    </div>
+
+                    <div class="email">
+                        <label for="" class="fonts-lato text-lg">Your Email</label>
+                        <input type="text" placeholder="name@flowbite.com"
+                            class="input border-slate-200 border w-full mt-2" />
+                    </div>
+
+
+                    <div class="phone">
+                        <label for="" class="fonts-lato text-lg">Phone Number</label>
+                        <input type="text" placeholder="+ 12 345 6789"
+                            class="input border-slate-200 border w-full mt-2" />
+                    </div>
+
+
+                    <div class="text-area col-span-1 lg:col-span-2">
+                        <label for="" class="fonts-lato text-lg">Your message
+                        </label>
+                        <textarea class="textarea textarea-bordered textarea-lg text w-full mt-2 "
+                            placeholder="Leave a comment..."></textarea>
+                    </div>
+
+                    <div class="terms col-span-1 lg:col-span-2">
+                        <p class="fonts-lato text-sm text-[#6b7280]">
+                            By submitting this form you agree to our <span class="text-blue-500">
+                                terms and conditions
+                            </span> and our
+                            <span class="text-blue-500">privacy policy</span> which
+                            explains how we may collect, use and disclose your personal information including to third
+                            parties.
+                        </p>
+                    </div>
+                    <div class="button flex justify-center lg:justify-start">
+                        <button class="btn btn-active btn-primary w-1/2 text-white ">Send message</button>
+                    </div>
+
+                </div>
+
+                <div class="contactus-info flex flex-col gap-10 lg:gap-4 px-4 mt-10 lg:mt-0 ">
+
+                    <div class="company-information flex flex-col justify-center items-center">
+                        <div class="img bg-slate-200 px-8 py-4 flex items-center justify-center w-10 rounded-lg">
+                            <i class="fa-solid fa-building text-3xl"></i>
+                        </div>
+                        <h3 class="ttile fonts-lato text-xl font-bold mt-2 text-center">Company information:
+                        </h3>
+                        <p class="desc fonts-lato text-base font-semibold mt-2 text-[#6b7280] ">
+                            Themesberg LLC
+                            <br> Tax id: USXXXXXX
+                        </p>
+                    </div>
+
+                    <div class="address flex flex-col justify-center items-center">
+                        <div class="img bg-slate-200 px-8 py-4 flex items-center justify-center w-10 rounded-lg">
+                            <i class="fa-solid fa-location-dot text-3xl"></i>
+                        </div>
+                        <h3 class="ttile fonts-lato text-xl font-bold mt-2">Address:
+                        </h3>
+                        <p class="desc fonts-lato text-base font-semibold mt-2 text-[#6b7280]  text-center">
+                            SILVER LAKE, United States 1941 Late Avenue
+                            Zip Code/Postal code:03875
+                        </p>
+                    </div>
+
+                    <div class="callus flex flex-col justify-center items-center">
+                        <div class="img bg-slate-200 px-8 py-4 flex items-center justify-center w-10 rounded-lg">
+                            <i class="fa-solid fa-phone text-3xl"></i>
+                        </div>
+                        <h3 class="ttile fonts-lato text-xl font-bold mt-2">Call us:
+                        </h3>
+                        <p class="desc fonts-lato text-base font-semibold mt-2 text-[#6b7280] text-center ">
+                            Call us to speak to a member of our team. We are always happy to help.
+                            <br>
+                            <span class="font-extrabold text-blue-500
+                            "> +1 (646) 786-5060</span>
+
+                        </p>
+                    </div>
+
+                </div>
+
+
+
+
+
+            </div>
+
+
+
+        </section>
+        <!-- contact section ends here -->
+
     </main>
+    <!-- footer starts here -->
     <footer class="bg-black mt-[140px]">
         <div class="container mx-auto flex flex-col justify-center items-center  py-20 lg:py-36 space-y-8">
             <div class="footer-fruit-burst  ">
@@ -747,6 +869,7 @@
         </div>
 
     </footer>
+    <!-- footer ends here -->
 </body>
 
 </html>
